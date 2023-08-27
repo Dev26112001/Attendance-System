@@ -1,0 +1,340 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #777;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  form label,
+  form input,
+  form select,
+  form button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  form input,
+  form select {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    /* ... Existing styles ... */
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  /* styles.css */
+
+/* ... Existing styles ... */
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px solid #555; /* Add a border at the bottom */
+  }
+  
+  nav button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s; /* Smooth transition on hover */
+  }
+  
+  button:hover {
+    background-color: #777;
+  }
+  
+  /* styles.css */
+
+/* ... Existing styles ... */
+
+nav {
+    background-color: #333;
+    padding: 10px;
+    height: 100vh; /* Set the height to cover the full viewport height */
+    display: flex;
+    flex-direction: column; /* Display buttons vertically */
+    align-items: flex-start; /* Align buttons to the left */
+    position: fixed; /* Fixed position on the left */
+    left: 0; /* Align to the left side */
+    top: 0; /* Align to the top */
+  }
+  
+  nav button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    margin: 5px 0; /* Add some vertical spacing between buttons */
+  }
+  
+  button:hover {
+    background-color: #777;
+  }
+  
+  /* styles.css */
+
+/* ... Existing styles ... */
+
+nav {
+    /* ... Existing styles ... */
+    transition: transform 0.3s ease-in-out; /* Add a transition for smooth sliding effect */
+    transform: translateX(-100%); /* Move the navigation bar out of view initially */
+    z-index: 1000; /* Set a high z-index to ensure it's on top of other content */
+  }
+  
+  .nav-open {
+    transform: translateX(0); /* Slide the navigation bar into view */
+  }
+  
+  .toggle-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    margin: 10px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000; /* Place it on top of the navigation bar */
+  }
+  
+  .toggle-button:hover {
+    background-color: #777;
+  }
+  /* styles.css */
+
+/* ... Existing styles ... */
+
+nav {
+    /* ... Existing styles ... */
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(-100%);
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 250px; /* Adjust the width of the navigation bar */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .nav-open {
+    transform: translateX(0);
+  }
+  
+  .toggle-button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+    z-index: 1000;
+  }
+  
+  .toggle-button-left {
+    left: 20px; /* Position on the left */
+  }
+  
+  .toggle-button-right {
+    right: 20px; /* Position on the right */
+  }
+  
+  .toggle-button:hover {
+    background-color: #777;
+  }
+  
+  /* styles.css */
+
+body {
+    /* ... Existing styles ... */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    /* ... Existing styles ... */
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Center the content within the container */
+  }
+  /* styles.css */
+
+/* ... Existing styles ... */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .main-content {
+    width: 60%; /* Adjust the width as needed */
+    margin-right: 20px;
+  }
+  
+  .side-content {
+    width: 40%; /* Adjust the width as needed */
+  }
+  /* styles.css */
+
+body {
+    /* ... Existing styles ... */
+    background-color: #f5f5f5;
+  }
+  
+  .container {
+    /* ... Existing styles ... */
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: white;
+  }
+  
+  /* Styling for Student List */
+  .student-list {
+    margin-top: 20px;
+  }
+  
+  .student-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styling for Attendance Form */
+  .attendance-form {
+    margin-top: 20px;
+  }
+  
+  .attendance-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .attendance-item label {
+    font-weight: bold;
+  }
+  
+  /* Styling for Dark Mode Toggle */
+  .dark-mode-toggle {
+    margin-top: 10px;
+  }
+  /* styles.css */
+
+/* ... Existing styles ... */
+
+.chart-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .legend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+  
+  .legend-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .legend-color {
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
+  
+  .legend-label {
+    font-size: 12px;
+    color: #555;
+  }
+  
+  .legend-label.hovered {
+    font-weight: bold;
+  }
+  

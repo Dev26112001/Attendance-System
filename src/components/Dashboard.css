@@ -1,0 +1,28 @@
+/* Dashboard.css */
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    min-height: 100vh;
+  }
+  
+  .content-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    flex-grow: 1;
+  }
+  
+  .main-content {
+    width: 60%;
+    margin-right: 20px;
+  }
+  
+  .side-content {
+    width: 40%;
+  }
+  
+  /* Add any additional styling here */
+  
